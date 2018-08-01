@@ -1,6 +1,6 @@
 FROM nginx
 
-MAINTAINER Stepan Mazurov <stepan@socialengine.com>
+LABEL maintainer="Dominik Burgdörfer <db@burgdoerfer.com>"
 
 # This tool converts env vars into json to be injected into the config
 ADD https://s3.amazonaws.com/se-com-docs/bins/json_env /usr/local/bin/
